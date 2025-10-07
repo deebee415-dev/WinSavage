@@ -1,29 +1,30 @@
 
-#If you are using VS Code, open the Command Palette(Ctrl + Shift + P) and run:
-
-C / C++ : Edit Configurations(UI)
-
-#Then, in the "Include path" section, add the path to your compiler's standard library headers.
-
-#For example, for MSVC it might be:
-
-#C :\Program Files(x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\< version>\include
-
-#For MinGW it might be:
-
-#C :\mingw\lib\gcc\mingw32\< version>\include \c++
-
-#Save the configuration and reload
-
-#For VS Code, open the Command Palette(Ctrl + Shift + P) and run:
-
-#C / C++ : Edit Configurations(UI)
-
-#In the "Include path" section, add the Windows SDK include path, for example:
-
-#C :\Program Files(x86)\Windows Kits\10\Include\< version>\um
-
-#Replace < version> with the actual version number
+//
+// If you are using VS Code, open the Command Palette(Ctrl + Shift + P) and run:
+//
+// C / C++ : Edit Configurations(UI)
+//
+// Then, in the "Include path" section, add the path to your compiler's standard library headers.
+//
+// For example, for MSVC it might be:
+//
+// C :\Program Files(x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\< version>\include
+//
+// For MinGW it might be:
+//
+// C :\mingw\lib\gcc\mingw32\< version>\include \c++
+//
+// Save the configuration and reload
+//
+// For VS Code, open the Command Palette(Ctrl + Shift + P) and run:
+//
+// C / C++ : Edit Configurations(UI)
+//
+// In the "Include path" section, add the Windows SDK include path, for example:
+//
+// C :\Program Files(x86)\Windows Kits\10\Include\< version>\um
+//
+// Replace < version> with the actual version number
 #include <stdarg.h>
 #include "patchutil.h"
 #include "memory.h"
